@@ -3,7 +3,7 @@
   "build": {
     "beforeBuildCommand": "",
     "beforeDevCommand": "",
-    "devPath": "../dist",
+    "devPath": "http://localhost:8080/",
     "distDir": "../dist"
   },
   "package": {
@@ -55,14 +55,14 @@
     },
     "windows": [
       {
+        "alwaysOnTop": true,
         "fullscreen": false,
-        "height": 600,
         "resizable": true,
         "title": "TheChemistryGame",
         "width": 800,
+        "height": 600,
         "x": 10,
-        "y": 10,
-        "alwaysOnTop": true
+        "y": 10
       }
     ]
   }
